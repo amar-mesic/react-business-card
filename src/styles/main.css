@@ -1,0 +1,45 @@
+.main {
+    background-color: #FFFFFF;
+    color: #2B283A;
+
+    min-height: 100vh;
+    padding: 32px;
+
+    background-image: url('../res/reactjs-icon.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40%;
+    background-position: 120% 20%;
+}
+
+.main.light {
+    background-color: #FFFFFF;
+}
+
+.main.dark {
+    background-color: #282D35;
+    color: white;
+
+    background-image: url('../res/reactjs-icon.png');
+}
+
+h1 {
+    padding: 16px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 12px;
+}
+
+.blue-bullets > li::before {
+    content: "• ";
+    color: #61DAFB;
+    display: inline-block;
+    width: 1em;
+}
+
+ul li {
+    font-size: large;
+    margin: 16px;
+}
